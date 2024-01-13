@@ -1,0 +1,149 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    min-height: 100vh;
+    padding: 50px 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .profile-container {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .user-details {
+    width: 60%;
+    text-align: left;
+  }
+  
+  .profile-content {
+    display: flex;
+    width: 100%;
+    align-items: flex-start; 
+    /* flex-direction: column;  */
+  }
+  .profile-heading {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* .profile-details {
+    margin-top: 5px;
+  } */
+  
+  p {
+    margin: 12px 0;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  strong {
+    font-weight: bold;
+    color: #3498db; 
+  }
+  
+  .profile-heading h2 {
+    color: #3498db;
+    font-size: 28px;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  .profile-heading p {
+    font-size: 18px;
+    color: #777; 
+  }
+
+  .avatar-container {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+  
+  .avatar {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+  .additional-content {
+    width: 40%;
+  }
+  
+  .additional-content h3 {
+    color: #3498db;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .additional-content li {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+
+  .news-card,
+.financial-tips-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.financial-tips-card {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.financial-tips-card h3 {
+  color: #3498db;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.financial-tips-card li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    .user-details {
+        width: 100%;
+        text-align: left;
+      }
+    .profile-container {
+        width: 100%;
+    }
+    .additional-content {
+        margin-top: 20px;
+        width: 100%; 
+      }
+
+    .avatar-container {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .profile-content {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .profile-heading{
+        text-align: center;
+    }
+}

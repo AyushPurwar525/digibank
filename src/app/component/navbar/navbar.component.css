@@ -1,0 +1,75 @@
+mat-toolbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .spacer {
+    flex: 1 1 auto;
+  }
+
+  .active {
+    background-color: #4caf50;
+  color: #ffffff;
+  }
+  mat-toolbar button {
+    margin-right: 10px;
+  }
+
+  .brand {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: auto;
+  }
+  
+  .digi {
+    font-style: italic;
+    color: #3498db;
+    font-size: 1.2em;
+  }
+  .space {
+    margin-right: 5px;
+  }
+  .bank {
+    font-weight: bold;
+    color: #e74c3c;
+    font-size: 1.2em;
+  } 
+
+  
+  .brand-table {
+    margin-right: auto;
+    margin-top: 18px;
+  }
+  
+  .brand-table td {
+    text-align: center;
+  }
+  
+  .brand-table .digi {
+    font-style: italic;
+    color: #3498db;
+    font-size: 1.5em;
+    
+  }
+  
+  .brand-table .space {
+    margin-right: 5px;
+  }
+  
+  .brand-table .bank {
+    font-weight: bold;
+    color: #e74c3c;
+    font-size: 1.5em;
+  }
+  
+  .brand-table .small-text {
+    font-size: 0.61em;
+    /* color: #888; */
+    color: rgb(191, 196, 201);
+    text-align: left;
+  }
+
+ 

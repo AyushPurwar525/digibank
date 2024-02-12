@@ -7,7 +7,7 @@ import { Observable, BehaviorSubject } from 'rxjs';
 })
 export class LoginService {
 
-  private apiUrl = 'http://localhost:3000';
+  private apiUrl = 'https://jsonserver.online/user/O22-Jx2-OJc';
   private loginSuccessSubject = new BehaviorSubject<boolean>(false);
   private loggedInUserSubject = new BehaviorSubject<any>(null);
 

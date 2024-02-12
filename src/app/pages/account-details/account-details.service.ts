@@ -8,7 +8,7 @@ import { LoginService } from '../login/login.service';
 })
 export class AccountDetailsService {
 
-  private apiUrl = 'http://localhost:3000/customers';
+  private apiUrl = 'https://jsonserver.online/user/O22-Jx2-OJc/customers';
 
   constructor(private http: HttpClient) { }
 

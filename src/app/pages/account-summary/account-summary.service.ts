@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class AccountSummaryService {
-  private apiUrl = 'http://localhost:3000/customers';
+  private apiUrl = 'https://jsonserver.online/user/O22-Jx2-OJc/customers';
 
   constructor(private http: HttpClient) {}
 

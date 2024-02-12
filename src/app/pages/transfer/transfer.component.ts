@@ -162,7 +162,7 @@ export class TransferComponent {
     }
 
     
-    this.http.put('http://localhost:3000/customers/' + this.userDetails.id, this.userDetails)
+    this.http.put('https://jsonserver.online/user/O22-Jx2-OJc/customers/' + this.userDetails.id, this.userDetails)
       .subscribe(
         () => {
           Swal.fire({

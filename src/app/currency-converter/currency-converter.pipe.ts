@@ -15,7 +15,7 @@ export class CurrencyConverterPipe implements PipeTransform {
   private currencies$: Observable<Currency[]>;
 
   constructor(private http: HttpClient) {
-    this.currencies$ = this.http.get<Currency[]>('http://localhost:3000/currencies');
+    this.currencies$ = this.http.get<Currency[]>('https://jsonserver.online/user/O22-Jx2-OJc/currencies');
   }
 
   transform(amount: number, currencyCode: string): Observable<string> {

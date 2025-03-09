@@ -7,7 +7,8 @@
       "type": "chrome",
       "request": "launch",
       "preLaunchTask": "npm: start",
-      "url": "https://jsonserver.online/user/O22-Jx2-OJc/"
+      "url": "https://digibank-json-server.onrender.com"
+      // "url": "http://localhost:3000"
     },
     {
       "name": "ng test",

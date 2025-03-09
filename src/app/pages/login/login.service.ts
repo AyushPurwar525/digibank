@@ -7,7 +7,8 @@ import { Observable, BehaviorSubject } from 'rxjs';
 })
 export class LoginService {
 
-  private apiUrl = 'https://jsonserver.online/user/O22-Jx2-OJc';
+  private apiUrl = 'https://digibank-json-server.onrender.com';
+  // private apiUrl = 'http://localhost:3000';
   private loginSuccessSubject = new BehaviorSubject<boolean>(false);
   private loggedInUserSubject = new BehaviorSubject<any>(null);
 

@@ -7,7 +7,8 @@ import { Observable } from 'rxjs';
 })
 export class TransferService {
 
-  private apiUrl = 'https://jsonserver.online/user/O22-Jx2-OJc/customers';
+  private apiUrl = 'https://digibank-json-server.onrender.com/customers';
+  // private apiUrl = 'http://localhost:3000/customers';
 
   constructor(private http: HttpClient) { }
 

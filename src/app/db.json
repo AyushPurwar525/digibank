@@ -1,0 +1,1081 @@
+{
+  "users": [
+    {
+      "id": "DIGI2301",
+      "username": "User1",
+      "password": "User1"
+    },
+    {
+      "id": "DIGI2302",
+      "username": "User2",
+      "password": "User2"
+    }
+  ],
+  "currencies": [
+    {
+      "code": "USD",
+      "symbol": "$",
+      "conversionFactor": 1
+    },
+    {
+      "code": "EUR",
+      "symbol": "€",
+      "conversionFactor": 0.85
+    },
+    {
+      "code": "INR",
+      "symbol": "₹",
+      "conversionFactor": 83
+    }
+  ],
+  "customers": [
+    {
+      "id": "DIGI2301",
+      "name": "Lance A. Hardwick",
+      "contact": "+1 (650) 693-3167",
+      "address": "389 Rardin Drive, San Jose, CA 95110",
+      "email": "lanceahardwick@example.com",
+      "accounts": [
+        {
+          "accountNumber": "9123456789",
+          "type": "Savings",
+          "balance": 6660,
+          "transactionData": [
+            {
+              "transactionId": "TXN520353",
+              "date": "2023-12-09",
+              "description": "Transfer",
+              "amount": -100
+            },
+            {
+              "transactionId": "TXN981633",
+              "date": "2023-12-09",
+              "description": "Transfer",
+              "amount": -100
+            },
+            {
+              "transactionId": "TXN145482",
+              "date": "2023-12-09",
+              "description": "Transfer",
+              "amount": 300
+            },
+            {
+              "transactionId": "TXN490034",
+              "date": "2023-12-09",
+              "description": "Transfer",
+              "amount": -100
+            },
+            {
+              "transactionId": "TXN000001",
+              "date": "2023-11-01",
+              "description": "Deposit",
+              "amount": 2000
+            },
+            {
+              "transactionId": "TXN000002",
+              "date": "2023-10-25",
+              "description": "Withdrawal",
+              "amount": 500
+            },
+            {
+              "transactionId": "TXN000003",
+              "date": "2023-10-18",
+              "description": "Transfer",
+              "amount": 1000
+            },
+            {
+              "transactionId": "TXN000004",
+              "date": "2023-10-10",
+              "description": "Deposit",
+              "amount": 1500
+            },
+            {
+              "transactionId": "TXN000005",
+              "date": "2023-09-28",
+              "description": "Withdrawal",
+              "amount": 800
+            },
+            {
+              "transactionId": "TXN000006",
+              "date": "2023-09-20",
+              "description": "Transfer",
+              "amount": 1200
+            },
+            {
+              "transactionId": "TXN000007",
+              "date": "2023-09-15",
+              "description": "Deposit",
+              "amount": 3000
+            },
+            {
+              "transactionId": "TXN000008",
+              "date": "2023-09-05",
+              "description": "Withdrawal",
+              "amount": 1000
+            },
+            {
+              "transactionId": "TXN000009",
+              "date": "2023-08-28",
+              "description": "Transfer",
+              "amount": 2000
+            },
+            {
+              "transactionId": "TXN000010",
+              "date": "2023-08-20",
+              "description": "Deposit",
+              "amount": 2500
+            },
+            {
+              "transactionId": "TXN000011",
+              "date": "2023-08-15",
+              "description": "Withdrawal",
+              "amount": 1200
+            },
+            {
+              "transactionId": "TXN000012",
+              "date": "2023-08-10",
+              "description": "Transfer",
+              "amount": 800
+            },
+            {
+              "transactionId": "TXN000013",
+              "date": "2023-08-01",
+              "description": "Deposit",
+              "amount": 1800
+            },
+            {
+              "transactionId": "TXN000014",
+              "date": "2023-07-25",
+              "description": "Withdrawal",
+              "amount": 700
+            },
+            {
+              "transactionId": "TXN000015",
+              "date": "2023-07-18",
+              "description": "Transfer",
+              "amount": 1300
+            },
+            {
+              "transactionId": "TXN000016",
+              "date": "2023-07-10",
+              "description": "Deposit",
+              "amount": 2200
+            },
+            {
+              "transactionId": "TXN000017",
+              "date": "2023-07-05",
+              "description": "Withdrawal",
+              "amount": 900
+            },
+            {
+              "transactionId": "TXN000018",
+              "date": "2023-06-28",
+              "description": "Transfer",
+              "amount": 1700
+            },
+            {
+              "transactionId": "TXN000019",
+              "date": "2023-06-20",
+              "description": "Deposit",
+              "amount": 2800
+            },
+            {
+              "transactionId": "TXN000020",
+              "date": "2023-06-15",
+              "description": "Withdrawal",
+              "amount": 1100
+            },
+            {
+              "transactionId": "TXN557738",
+              "date": "2023-12-09",
+              "description": "Transfer",
+              "amount": -100
+            },
+            {
+              "transactionId": "TXN331031",
+              "date": "2023-12-11",
+              "description": "Transfer",
+              "amount": -200
+            },
+            {
+              "transactionId": "TXN348540",
+              "date": "2023-12-11",
+              "description": "Transfer",
+              "amount": -200
+            },
+            {
+              "transactionId": "TXN533364",
+              "date": "2023-12-11",
+              "description": "Transfer",
+              "amount": -100
+            },
+            {
+              "transactionId": "TXN21890",
+              "date": "2023-12-11",
+              "description": "Transfer",
+              "amount": -100
+            },
+            {
+              "transactionId": "TXN698136",
+              "date": "2023-12-11",
+              "description": "Deposit",
+              "amount": 100
+            },
+            {
+              "transactionId": "TXN209834",
+              "date": "2023-12-11",
+              "description": "Transfer",
+              "amount": -100
+            },
+            {
+              "transactionId": "TXN337489",
+              "date": "2023-12-11",
+              "description": "Transfer",
+              "amount": -100
+            },
+            {
+              "transactionId": "TXN144435",
+              "date": "2023-12-11",
+              "description": "Transfer",
+              "amount": -100
+            },
+            {
+              "transactionId": "TXN33959",
+              "date": "2023-12-11",
+              "description": "Transfer",
+              "amount": -100
+            },
+            {
+              "transactionId": "TXN865492",
+              "date": "2023-12-12",
+              "description": "Deposit",
+              "amount": 200
+            },
+            {
+              "transactionId": "TXN951109",
+              "date": "2023-12-12",
+              "description": "Transfer",
+              "amount": -100
+            },
+            {
+              "transactionId": "TXN651304",
+              "date": "2023-12-12",
+              "description": "Deposit",
+              "amount": 100
+            },
+            {
+              "transactionId": "TXN285761",
+              "date": "2023-12-12",
+              "description": "Transfer",
+              "amount": -100
+            },
+            {
+              "transactionId": "TXN733167",
+              "date": "2023-12-12",
+              "description": "Deposit",
+              "amount": 100
+            },
+            {
+              "transactionId": "TXN935977",
+              "date": "2023-12-12",
+              "description": "Deposit",
+              "amount": 100
+            },
+            {
+              "transactionId": "TXN970419",
+              "date": "2023-12-13",
+              "description": "Transfer",
+              "amount": -50
+            },
+            {
+              "transactionId": "TXN241748",
+              "date": "2023-12-13",
+              "description": "Transfer",
+              "amount": -100
+            },
+            {
+              "transactionId": "TXN460773",
+              "date": "2023-12-13",
+              "description": "Deposit",
+              "amount": 500
+            },
+            {
+              "transactionId": "TXN762111",
+              "date": "2023-12-13",
+              "description": "Deposit",
+              "amount": 10
+            }
+          ]
+        },
+        {
+          "accountNumber": "9876543210",
+          "type": "Current",
+          "balance": 9890,
+          "transactionData": [
+            {
+              "transactionId": "TXN224332",
+              "date": "2023-12-09",
+              "description": "Transfer",
+              "amount": 100
+            },
+            {
+              "transactionId": "TXN723996",
+              "date": "2023-12-09",
+              "description": "Transfer",
+              "amount": 100
+            },
+            {
+              "transactionId": "TXN657246",
+              "date": "2023-12-09",
+              "description": "Transfer",
+              "amount": -300
+            },
+            {
+              "transactionId": "TXN140859",
+              "date": "2023-12-09",
+              "description": "Deposit",
+              "amount": 100
+            },
+            {
+              "transactionId": "TXN000021",
+              "date": "2023-11-01",
+              "description": "Deposit",
+              "amount": 3000
+            },
+            {
+              "transactionId": "TXN000022",
+              "date": "2023-10-25",
+              "description": "Withdrawal",
+              "amount": 700
+            },
+            {
+              "transactionId": "TXN000023",
+              "date": "2023-10-18",
+              "description": "Transfer",
+              "amount": 1200
+            },
+            {
+              "transactionId": "TXN000024",
+              "date": "2023-10-10",
+              "description": "Deposit",
+              "amount": 1800
+            },
+            {
+              "transactionId": "TXN000025",
+              "date": "2023-09-28",
+              "description": "Withdrawal",
+              "amount": 1000
+            },
+            {
+              "transactionId": "TXN000026",
+              "date": "2023-09-20",
+              "description": "Transfer",
+              "amount": 1500
+            },
+            {
+              "transactionId": "TXN000027",
+              "date": "2023-09-15",
+              "description": "Deposit",
+              "amount": 2500
+            },
+            {
+              "transactionId": "TXN000028",
+              "date": "2023-09-05",
+              "description": "Withdrawal",
+              "amount": 800
+            },
+            {
+              "transactionId": "TXN000029",
+              "date": "2023-08-28",
+              "description": "Transfer",
+              "amount": 2000
+            },
+            {
+              "transactionId": "TXN000030",
+              "date": "2023-08-20",
+              "description": "Deposit",
+              "amount": 2800
+            },
+            {
+              "transactionId": "TXN000031",
+              "date": "2023-08-15",
+              "description": "Withdrawal",
+              "amount": 1300
+            },
+            {
+              "transactionId": "TXN000032",
+              "date": "2023-08-10",
+              "description": "Transfer",
+              "amount": 900
+            },
+            {
+              "transactionId": "TXN000033",
+              "date": "2023-08-01",
+              "description": "Deposit",
+              "amount": 3200
+            },
+            {
+              "transactionId": "TXN000034",
+              "date": "2023-07-25",
+              "description": "Withdrawal",
+              "amount": 600
+            },
+            {
+              "transactionId": "TXN000035",
+              "date": "2023-07-18",
+              "description": "Transfer",
+              "amount": 1400
+            },
+            {
+              "transactionId": "TXN000036",
+              "date": "2023-07-10",
+              "description": "Deposit",
+              "amount": 2400
+            },
+            {
+              "transactionId": "TXN000037",
+              "date": "2023-07-05",
+              "description": "Withdrawal",
+              "amount": 1100
+            },
+            {
+              "transactionId": "TXN000038",
+              "date": "2023-06-28",
+              "description": "Transfer",
+              "amount": 1800
+            },
+            {
+              "transactionId": "TXN000039",
+              "date": "2023-06-20",
+              "description": "Deposit",
+              "amount": 2600
+            },
+            {
+              "transactionId": "TXN000040",
+              "date": "2023-06-15",
+              "description": "Withdrawal",
+              "amount": 1200
+            },
+            {
+              "transactionId": "TXN000041",
+              "date": "2023-06-10",
+              "description": "Transfer",
+              "amount": 1000
+            },
+            {
+              "transactionId": "TXN000042",
+              "date": "2023-05-28",
+              "description": "Deposit",
+              "amount": 3500
+            },
+            {
+              "transactionId": "TXN000043",
+              "date": "2023-05-20",
+              "description": "Withdrawal",
+              "amount": 500
+            },
+            {
+              "transactionId": "TXN000044",
+              "date": "2023-05-15",
+              "description": "Transfer",
+              "amount": 1600
+            },
+            {
+              "transactionId": "TXN000045",
+              "date": "2023-05-10",
+              "description": "Deposit",
+              "amount": 2200
+            },
+            {
+              "transactionId": "TXN000046",
+              "date": "2023-05-05",
+              "description": "Withdrawal",
+              "amount": 900
+            },
+            {
+              "transactionId": "TXN000047",
+              "date": "2023-04-28",
+              "description": "Transfer",
+              "amount": 1200
+            },
+            {
+              "transactionId": "TXN000048",
+              "date": "2023-04-20",
+              "description": "Deposit",
+              "amount": 1800
+            },
+            {
+              "transactionId": "TXN000049",
+              "date": "2023-04-15",
+              "description": "Withdrawal",
+              "amount": 700
+            },
+            {
+              "transactionId": "TXN000050",
+              "date": "2023-04-10",
+              "description": "Transfer",
+              "amount": 1100
+            },
+            {
+              "transactionId": "TXN751637",
+              "date": "2023-12-11",
+              "description": "Deposit",
+              "amount": 200
+            },
+            {
+              "transactionId": "TXN437933",
+              "date": "2023-12-11",
+              "description": "Deposit",
+              "amount": 200
+            },
+            {
+              "transactionId": "TXN507206",
+              "date": "2023-12-11",
+              "description": "Deposit",
+              "amount": 100
+            },
+            {
+              "transactionId": "TXN373385",
+              "date": "2023-12-11",
+              "description": "Deposit",
+              "amount": 100
+            },
+            {
+              "transactionId": "TXN528358",
+              "date": "2023-12-11",
+              "description": "Transfer",
+              "amount": -100
+            },
+            {
+              "transactionId": "TXN176221",
+              "date": "2023-12-11",
+              "description": "Deposit",
+              "amount": 100
+            },
+            {
+              "transactionId": "TXN733172",
+              "date": "2023-12-11",
+              "description": "Deposit",
+              "amount": 100
+            },
+            {
+              "transactionId": "TXN23350",
+              "date": "2023-12-12",
+              "description": "Transfer",
+              "amount": -200
+            },
+            {
+              "transactionId": "TXN657535",
+              "date": "2023-12-12",
+              "description": "Transfer",
+              "amount": -100
+            },
+            {
+              "transactionId": "TXN792864",
+              "date": "2023-12-12",
+              "description": "Deposit",
+              "amount": 7350
+            },
+            {
+              "transactionId": "TXN763535",
+              "date": "2023-12-13",
+              "description": "Deposit",
+              "amount": 50
+            },
+            {
+              "transactionId": "TXN952452",
+              "date": "2023-12-13",
+              "description": "Deposit",
+              "amount": 100
+            },
+            {
+              "transactionId": "TXN417057",
+              "date": "2023-12-13",
+              "description": "Transfer",
+              "amount": -500
+            },
+            {
+              "transactionId": "TXN296497",
+              "date": "2023-12-13",
+              "description": "Transfer",
+              "amount": -10
+            }
+          ]
+        },
+        {
+          "accountNumber": "4567890123",
+          "type": "Fixed Deposit",
+          "balance": 2750,
+          "transactionData": [
+            {
+              "transactionId": "TXN686990",
+              "date": "2023-12-09",
+              "description": "Deposit",
+              "amount": 100
+            },
+            {
+              "transactionId": "TXN000051",
+              "date": "2023-11-01",
+              "description": "Deposit",
+              "amount": 4000
+            },
+            {
+              "transactionId": "TXN000052",
+              "date": "2023-10-25",
+              "description": "Withdrawal",
+              "amount": 800
+            },
+            {
+              "transactionId": "TXN000053",
+              "date": "2023-10-18",
+              "description": "Transfer",
+              "amount": 1500
+            },
+            {
+              "transactionId": "TXN000054",
+              "date": "2023-10-10",
+              "description": "Deposit",
+              "amount": 2200
+            },
+            {
+              "transactionId": "TXN000055",
+              "date": "2023-09-28",
+              "description": "Withdrawal",
+              "amount": 1200
+            },
+            {
+              "transactionId": "TXN000056",
+              "date": "2023-09-20",
+              "description": "Transfer",
+              "amount": 1800
+            },
+            {
+              "transactionId": "TXN000057",
+              "date": "2023-09-15",
+              "description": "Deposit",
+              "amount": 2800
+            },
+            {
+              "transactionId": "TXN000058",
+              "date": "2023-09-05",
+              "description": "Withdrawal",
+              "amount": 1000
+            },
+            {
+              "transactionId": "TXN000059",
+              "date": "2023-08-28",
+              "description": "Transfer",
+              "amount": 2000
+            },
+            {
+              "transactionId": "TXN000060",
+              "date": "2023-08-20",
+              "description": "Deposit",
+              "amount": 3200
+            },
+            {
+              "transactionId": "TXN000061",
+              "date": "2023-08-15",
+              "description": "Withdrawal",
+              "amount": 1300
+            },
+            {
+              "transactionId": "TXN000062",
+              "date": "2023-08-10",
+              "description": "Transfer",
+              "amount": 900
+            },
+            {
+              "transactionId": "TXN000063",
+              "date": "2023-08-01",
+              "description": "Deposit",
+              "amount": 3500
+            },
+            {
+              "transactionId": "TXN000064",
+              "date": "2023-07-25",
+              "description": "Withdrawal",
+              "amount": 600
+            },
+            {
+              "transactionId": "TXN000065",
+              "date": "2023-07-18",
+              "description": "Transfer",
+              "amount": 1400
+            },
+            {
+              "transactionId": "TXN000066",
+              "date": "2023-07-10",
+              "description": "Deposit",
+              "amount": 2400
+            },
+            {
+              "transactionId": "TXN000067",
+              "date": "2023-07-05",
+              "description": "Withdrawal",
+              "amount": 1100
+            },
+            {
+              "transactionId": "TXN000068",
+              "date": "2023-06-28",
+              "description": "Transfer",
+              "amount": 1800
+            },
+            {
+              "transactionId": "TXN000069",
+              "date": "2023-06-20",
+              "description": "Deposit",
+              "amount": 2600
+            },
+            {
+              "transactionId": "TXN000070",
+              "date": "2023-06-15",
+              "description": "Withdrawal",
+              "amount": 1200
+            },
+            {
+              "transactionId": "TXN000071",
+              "date": "2023-06-10",
+              "description": "Transfer",
+              "amount": 1000
+            },
+            {
+              "transactionId": "TXN000072",
+              "date": "2023-05-28",
+              "description": "Deposit",
+              "amount": 4000
+            },
+            {
+              "transactionId": "TXN000073",
+              "date": "2023-05-20",
+              "description": "Withdrawal",
+              "amount": 800
+            },
+            {
+              "transactionId": "TXN000074",
+              "date": "2023-05-15",
+              "description": "Transfer",
+              "amount": 1500
+            },
+            {
+              "transactionId": "TXN000075",
+              "date": "2023-05-10",
+              "description": "Deposit",
+              "amount": 2200
+            },
+            {
+              "transactionId": "TXN000076",
+              "date": "2023-05-05",
+              "description": "Withdrawal",
+              "amount": 1200
+            },
+            {
+              "transactionId": "TXN000077",
+              "date": "2023-04-28",
+              "description": "Transfer",
+              "amount": 1800
+            },
+            {
+              "transactionId": "TXN000078",
+              "date": "2023-04-20",
+              "description": "Deposit",
+              "amount": 2800
+            },
+            {
+              "transactionId": "TXN000079",
+              "date": "2023-04-15",
+              "description": "Withdrawal",
+              "amount": 1000
+            },
+            {
+              "transactionId": "TXN000080",
+              "date": "2023-04-10",
+              "description": "Transfer",
+              "amount": 2000
+            },
+            {
+              "transactionId": "TXN000081",
+              "date": "2023-03-28",
+              "description": "Deposit",
+              "amount": 3200
+            },
+            {
+              "transactionId": "TXN000082",
+              "date": "2023-03-20",
+              "description": "Withdrawal",
+              "amount": 1300
+            },
+            {
+              "transactionId": "TXN000083",
+              "date": "2023-03-15",
+              "description": "Transfer",
+              "amount": 900
+            },
+            {
+              "transactionId": "TXN000084",
+              "date": "2023-03-10",
+              "description": "Deposit",
+              "amount": 3500
+            },
+            {
+              "transactionId": "TXN000085",
+              "date": "2023-03-05",
+              "description": "Withdrawal",
+              "amount": 600
+            },
+            {
+              "transactionId": "TXN000086",
+              "date": "2023-02-28",
+              "description": "Transfer",
+              "amount": 1400
+            },
+            {
+              "transactionId": "TXN000087",
+              "date": "2023-02-20",
+              "description": "Deposit",
+              "amount": 2400
+            },
+            {
+              "transactionId": "TXN000088",
+              "date": "2023-02-15",
+              "description": "Withdrawal",
+              "amount": 1100
+            },
+            {
+              "transactionId": "TXN000089",
+              "date": "2023-02-10",
+              "description": "Transfer",
+              "amount": 1800
+            },
+            {
+              "transactionId": "TXN000090",
+              "date": "2023-01-28",
+              "description": "Deposit",
+              "amount": 2600
+            },
+            {
+              "transactionId": "TXN000091",
+              "date": "2023-01-20",
+              "description": "Withdrawal",
+              "amount": 1200
+            },
+            {
+              "transactionId": "TXN000092",
+              "date": "2023-01-15",
+              "description": "Transfer",
+              "amount": 1000
+            },
+            {
+              "transactionId": "TXN000093",
+              "date": "2023-01-10",
+              "description": "Deposit",
+              "amount": 4000
+            },
+            {
+              "transactionId": "TXN000094",
+              "date": "2023-01-05",
+              "description": "Withdrawal",
+              "amount": 800
+            },
+            {
+              "transactionId": "TXN000095",
+              "date": "2022-12-28",
+              "description": "Transfer",
+              "amount": 1500
+            },
+            {
+              "transactionId": "TXN295531",
+              "date": "2023-12-12",
+              "description": "Transfer",
+              "amount": -7350
+            }
+          ]
+        },
+        {
+          "accountNumber": "9775443210",
+          "type": "Savings",
+          "balance": 14000,
+          "transactionData": [
+            {
+              "transactionId": "TXN845763",
+              "date": "2023-12-13",
+              "description": "Deposit",
+              "amount": 6000
+            }
+          ]
+        },
+        {
+          "accountNumber": "1234567890",
+          "type": "Fixed Deposit",
+          "balance": 6000,
+          "transactionData": [
+            {
+              "transactionId": "TXN388003",
+              "date": "2023-12-13",
+              "description": "Transfer",
+              "amount": -6000
+            }
+          ]
+        },
+        {
+          "accountNumber": "5678901234",
+          "type": "Savings",
+          "balance": 7007,
+          "transactionData": [
+            {
+              "transactionId": "TXN811014",
+              "date": "2023-12-13",
+              "description": "Deposit",
+              "amount": 3
+            },
+            {
+              "transactionId": "TXN462416",
+              "date": "2023-12-13",
+              "description": "Deposit",
+              "amount": 2
+            },
+            {
+              "transactionId": "TXN131840",
+              "date": "2023-12-13",
+              "description": "Deposit",
+              "amount": 2
+            }
+          ]
+        },
+        {
+          "accountNumber": "6789012345",
+          "type": "Current",
+          "balance": 2893,
+          "transactionData": [
+            {
+              "transactionId": "TXN174723",
+              "date": "2023-12-13",
+              "description": "Transfer",
+              "amount": -3
+            },
+            {
+              "transactionId": "TXN446550",
+              "date": "2023-12-13",
+              "description": "Transfer",
+              "amount": -2
+            },
+            {
+              "transactionId": "TXN673639",
+              "date": "2023-12-13",
+              "description": "Transfer",
+              "amount": -2
+            },
+            {
+              "transactionId": "TXN442834",
+              "date": "2023-12-13",
+              "description": "Transfer",
+              "amount": -100
+            }
+          ]
+        },
+        {
+          "accountNumber": "7890123456",
+          "type": "Fixed Deposit",
+          "balance": 15000
+        },
+        {
+          "accountNumber": "8901234567",
+          "type": "Savings",
+          "balance": 10382,
+          "transactionData": [
+            {
+              "transactionId": "TXN707712",
+              "date": "2023-12-13",
+              "description": "Transfer",
+              "amount": -5
+            },
+            {
+              "transactionId": "TXN894248",
+              "date": "2023-12-13",
+              "description": "Deposit",
+              "amount": 387
+            }
+          ]
+        },
+        {
+          "accountNumber": "9012345678",
+          "type": "Current",
+          "balance": 4618,
+          "transactionData": [
+            {
+              "transactionId": "TXN852604",
+              "date": "2023-12-13",
+              "description": "Deposit",
+              "amount": 5
+            },
+            {
+              "transactionId": "TXN130490",
+              "date": "2023-12-13",
+              "description": "Transfer",
+              "amount": -387
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DIGI2302",
+      "name": "Jose E. Vanhorn",
+      "contact": "+1 (970) 825-5351",
+      "address": "3792 Reeves Street, Brussels, WI 54204",
+      "email": "joseevanhorn@example.com",
+      "accounts": [
+        {
+          "accountNumber": "1234567890",
+          "type": "Savings",
+          "balance": 7000
+        },
+        {
+          "accountNumber": "8765432109",
+          "type": "Current",
+          "balance": 3000
+        },
+        {
+          "accountNumber": "8765432109",
+          "type": "Savings",
+          "balance": 6000
+        },
+        {
+          "accountNumber": "8765432109",
+          "type": "Fixed Deposit",
+          "balance": 15000
+        },
+        {
+          "accountNumber": "8765432109",
+          "type": "Current",
+          "balance": 4000
+        },
+        {
+          "accountNumber": "9876543210",
+          "type": "Savings",
+          "balance": 9000
+        },
+        {
+          "accountNumber": "8765432109",
+          "type": "Current",
+          "balance": 3500
+        },
+        {
+          "accountNumber": "7654321098",
+          "type": "Fixed Deposit",
+          "balance": 18000
+        },
+        {
+          "accountNumber": "8765432109",
+          "type": "Savings",
+          "balance": 12000
+        },
+        {
+          "accountNumber": "6543210987",
+          "type": "Current",
+          "balance": 7000
+        }
+      ]
+    }
+  ]
+}

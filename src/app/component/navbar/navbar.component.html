@@ -1,0 +1,42 @@
+  <mat-toolbar color="primary">
+    <div *ngIf="isLoggedIn()">
+        <a routerLink="/profile" mat-icon-button class="example-icon" aria-label="Home icon">
+          <mat-icon>home</mat-icon>
+        </a>
+      </div>
+      
+      <table class="brand-table">
+        <tr>
+          <td>
+            <span class="digi">Digi</span>
+            <span class="space"></span>
+            <span class="bank">Bank</span>
+          </td>
+        </tr>
+        <tr>
+          <td style="position: relative; top: -14px;" class="small-text">Your Own Digital Bank</td>
+        </tr>
+      </table>
+  
+    <div class="spacer"></div>
+  
+    <div *ngIf="isLoggedIn()">
+      <button mat-button [routerLink]="['/profile']" routerLinkActive="active">Profile</button>
+      <button mat-button [routerLink]="['/account-summary']" routerLinkActive="active">Account Summary</button>
+      <button mat-button [routerLink]="['/account-details']" routerLinkActive="active">Transaction Summary</button>
+      <button mat-button [routerLink]="['/transfer']" routerLinkActive="active">Transfer</button>
+      <button mat-button (click)="logout()">Logout</button>
+    </div>
+  
+    <div *ngIf="!isLoggedIn() && isLoginPage()">
+        <button mat-button [routerLink]="['/profile']" routerLinkActive="active" disabled="#3498db">Profile</button>
+      <button mat-button [routerLink]="['/account-summary']" routerLinkActive="active" disabled="#3498db">Account Summary</button>
+      <button mat-button [routerLink]="['/account-details']" routerLinkActive="active" disabled="#3498db">Transaction Summary</button>
+      <button mat-button [routerLink]="['/transfer']" routerLinkActive="active" disabled="#3498db">Transfer</button>
+      <button mat-button [routerLink]="['/login']" routerLinkActive="active">Login</button>
+    </div>
+  </mat-toolbar>
+
+  
+
+  

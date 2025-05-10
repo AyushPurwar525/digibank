@@ -1,0 +1,30 @@
+  footer {
+    background-color: #673ab7;
+    color: #fff;
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .footer-section .social-icon {
+    font-size: 18px;
+    margin-right: 8px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 10px;
+  }

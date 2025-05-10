@@ -1,0 +1,131 @@
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center;
+    overflow-x: auto;
+  }
+  .mat-form-field{
+    width: 100%;
+  }
+
+  h2 {
+    text-align: center;
+    color: #007bff;
+  }
+  
+  p {
+    margin-bottom: 10px;
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+  button.active {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+.search-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.search-field {
+  width: 300px; /* Adjust the width as needed */
+}
+
+.heading-container {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.page-title {
+  color: #3498db;
+  font-size: 2em;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.page-subtitle {
+  color: #777;
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+.guidance-line {
+  text-align: center;
+  font-style: italic;
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.centered-select {
+  width: 30%;
+  text-align: center;
+}
+
+
+.custom-header {
+  background-color: #2980b9 !important; /* Header background color */
+  font-size: 16px !important;
+  color: #fff !important; /* Header text color */
+  font-weight: bold;
+}
+
+.custom-header.sno,
+.custom-cell.sno {
+  background-color: #2980b9 !important; /* S.No column color */
+  color: #fff !important; /* S.No column text color */
+}
+
+.custom-cell.amount {
+  color: #27ae60 !important; /* Amount column text color */
+  font-weight: bold;
+}
+
+.custom-cell.amount.deposit {
+  color: #27ae60 !important; /* Deposit amount text color */
+  font-weight: bold;
+}
+
+.custom-cell.amount.withdrawal {
+  color: #e74c3c !important; /* Withdrawal amount text color */
+  font-weight: bold;
+}
+
+.custom-cell.amount.transfer {
+  color: #3498db !important; /* Transfer amount text color */
+  font-weight: bold;
+}
+
+
+@media (max-width: 768px) {
+  .container {
+      padding: 10px;
+  }
+
+  .centered-select {
+      width: 100%;
+  }
+
+  .search-container {
+      justify-content: flex-start;
+  }
+
+  .search-field {
+      width: 100%;
+      max-width: none;
+  }
+
+  .mat-elevation-z8 {
+      overflow: auto; /* Enable horizontal scrolling on small screens */
+  }
+}

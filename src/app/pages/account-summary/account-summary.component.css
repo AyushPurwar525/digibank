@@ -1,0 +1,138 @@
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    overflow-x: auto; 
+  }
+  
+  table {
+    width: 100%;
+    overflow: auto;
+  }
+  button.active {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+  
+  .search-field {
+    /* width: 300px; */
+    width: 100%; /* Make search field full width on smaller screens */
+    max-width: 300px; 
+  }
+  
+  .account-link:hover {
+    text-decoration: underline;
+  }
+
+  .forward-icon {
+    margin-left: 5px;
+    vertical-align: middle;
+    cursor: pointer;
+    color: #3498db;
+    transition: font-weight 0.3s ease;
+    font-weight: normal;
+}
+
+.forward-icon:hover {
+    font-weight: bold; 
+    color: #e74c3c;
+  }
+  
+  
+  .balance-cell {
+    font-weight: bold;
+    color: #2ecc71;
+  }
+
+  .heading-container {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .page-title {
+    color: #3498db;
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  
+  .page-subtitle {
+    color: #777;
+    font-size: 1.2em;
+    font-style: italic;
+  }
+  
+  /* account-summary.component.css */
+.mat-elevation-z8 {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mat-header-cell {
+    background-color: #3498db;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .mat-cell, .mat-header-cell {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .mat-row:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .account-link {
+    color: #3498db;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .search-container {
+    display: flex;
+    /* justify-content: space-between;
+    align-items: center; */
+    flex-direction: column; /* Adjust flex direction for smaller screens */
+    align-items: stretch; 
+    margin-bottom: 15px;
+  }
+  
+  .mat-paginator {
+    margin-top: 20px;
+  }
+  
+  .custom-header {
+    background-color: #2980b9 !important; /* Header background color */
+    font-size: 16px !important;
+    color: #fff !important; /* Header text color */
+    font-weight: bold;
+  }
+  
+  .custom-header.sno,
+  .custom-cell.sno {
+    background-color: #2980b9 !important; /* S.No column color */
+    color: #fff !important; /* S.No column text color */
+  }
+
+
+  @media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .search-container {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .search-field {
+        width: 100%;
+        max-width: none;
+    }
+}

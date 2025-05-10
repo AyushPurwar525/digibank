@@ -1,0 +1,78 @@
+<div class="bootstrap-wrapper page-content">
+    <div class="container">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-6">
+                <div class="moving-sentence">Welcome to DigiBank, Your Own Digital Bank</div>
+
+                <mat-card class="login-card">
+
+                    <!-- Welcome Message -->
+                    <h1 class="text-center">Login Here !!</h1>
+                    
+                    <!-- Brief Description -->
+                    <p class="text-center">Securely manage your finances with DigiBank. Login to your account below.</p>
+
+                    <!-- Login Form -->
+                    <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+                        <!-- Username -->
+                        <mat-form-field appearance="outline" class="full-width">
+                            <mat-label>Username</mat-label>
+                            <input formControlName="username" matInput placeholder="Enter your username">
+                        </mat-form-field>
+                        
+                        <!-- Password -->
+                        <mat-form-field appearance="outline" class="full-width">
+                            <mat-label>Password</mat-label>
+                            <input [type]="hidePassword ? 'password' : 'text'" formControlName="password" matInput placeholder="Enter your password">
+                            <!-- Eye button inside the input box using matSuffix -->
+                            <mat-icon *ngIf="hidePassword" matSuffix class="password-toggle" (click)="togglePassword()">visibility_off</mat-icon>
+                            <mat-icon *ngIf="!hidePassword" matSuffix class="password-toggle" (click)="togglePassword()">visibility</mat-icon>
+                        </mat-form-field>
+
+                        <!-- Login Button -->
+                        <div class="text-center">
+                            <button type="submit" mat-raised-button color="primary">Login</button>
+                        </div>
+                    </form>
+                </mat-card>
+            </div>
+            <!-- Featured Services Section -->
+        <div class="row featured-services-section mt-5">
+            <div class="col-md-12 text-center">
+                <h2>Featured Services</h2>
+                <p>Discover our featured services designed for your convenience.</p>
+                <!-- Add featured service cards or content here -->
+                <div class="featured-service-card">
+                    <h3>Online Banking</h3>
+                    <p>Manage your accounts, transfer funds, and pay bills online.</p>
+                </div>
+                <div class="featured-service-card">
+                    <h3>Mobile App</h3>
+                    <p>Access your accounts anytime, anywhere with our mobile app.</p>
+                </div>
+                <!-- Add more featured service cards as needed -->
+            </div>
+        </div>
+        </div>
+        
+
+        <!-- Additional Information Section -->
+        <div class="row additional-info-section mt-5">
+            <div class="col-md-12">
+                <h2>Why Choose DigiBank?</h2>
+                <p>Explore the benefits of banking with DigiBank and experience financial freedom.</p>
+                <!-- Add additional information or testimonials here -->
+                <div class="testimonial-card">
+                    <p>"DigiBank has transformed the way I manage my finances. Secure, convenient, and user-friendly!"</p>
+                    <p>- John Doe, Satisfied Customer</p>
+                </div>
+                <div class="testimonial-card">
+                    <p>"The personalized service and advanced features make DigiBank stand out from the rest. Highly
+                        recommended!"</p>
+                    <p>- Jane Smith, Happy Customer</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
